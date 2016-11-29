@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="23.1.0$Generated" generated="true"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\res"/></dataSet><dataSet config="23.1.0$Generated" generated="true"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\res"/></dataSet><dataSet config="23.1.0$Generated" generated="true"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\res"/></dataSet><dataSet config="18.0.0$Generated" generated="true"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res"/><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\generated\res\rs\debug"/><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\debug\res"/></dataSet><dataSet config="23.1.0" from-dependency="true" generated-set="23.1.0$Generated"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\res"/></dataSet><dataSet config="23.1.0" from-dependency="true" generated-set="23.1.0$Generated"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\res"><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\res\values\values.xml" qualifiers=""><item name="item_touch_helper_previous_elevation" type="id"/><declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable><dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen></file></source></dataSet><dataSet config="23.1.0" from-dependency="true" generated-set="23.1.0$Generated"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\res"><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\res\values\values.xml" qualifiers=""><declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable><color name="cardview_shadow_start_color">#37000000</color><dimen name="cardview_default_elevation">2dp</dimen><style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style><dimen name="cardview_compat_inset_shadow">1dp</dimen><color name="cardview_shadow_end_color">#03000000</color><style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style><color name="cardview_light_background">#FFFAFAFA</color><dimen name="cardview_default_radius">2dp</dimen><style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style><color name="cardview_dark_background">#FF202020</color></file></source></dataSet><dataSet config="18.0.0" from-dependency="true" generated-set="18.0.0$Generated"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\res"><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\res\values\values.xml" qualifiers=""><dimen name="default_gap">16dip</dimen><declare-styleable name="GridLayout">
+
+        <!--
+              support versions. All attributes not present in ViewGroup/View are
+              redefined in the support library namespace.
+        -->
+
+
+        <!--
+        The orientation property is not used during layout. It is only used to
+        allocate row and column parameters when they are not specified by its children's
+        layout parameters. GridLayout works like LinearLayout in this case;
+        putting all the components either in a single row or in a single column -
+        depending on the value of this flag. In the horizontal case, a columnCount
+        property may be additionally supplied to force new rows to be created when a
+        row is full. The rowCount attribute may be used similarly in the vertical case.
+        The default is horizontal.
+        -->
+        <attr name="orientation">
+
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0"/>
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1"/>
+        </attr>
+        <!-- The maximum number of rows to create when automatically positioning children. -->
+        <attr format="integer" name="rowCount"/>
+        <!-- The maximum number of columns to create when automatically positioning children. -->
+        <attr format="integer" name="columnCount"/>
+        <!--
+        When set to true, tells GridLayout to use default margins when none are specified
+        in a view's layout parameters.
+        The default value is false.
+        See {@link android.widget.GridLayout#setUseDefaultMargins(boolean)}.
+        -->
+        <attr format="boolean" name="useDefaultMargins"/>
+        <!--
+        When set to alignMargins, causes alignment to take place between the outer
+        boundary of a view, as defined by its margins. When set to alignBounds,
+        causes alignment to take place between the edges of the view.
+        The default is alignMargins.
+        See {@link android.widget.GridLayout#setAlignmentMode(int)}.
+        -->
+        <attr name="alignmentMode">
+
+            <!--
+            Align the bounds of the children.
+            See {@link android.widget.GridLayout#ALIGN_BOUNDS}.
+            -->
+            <enum name="alignBounds" value="0"/>
+            <!--
+            Align the margins of the children.
+            See {@link android.widget.GridLayout#ALIGN_MARGINS}.
+            -->
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        <!--
+        When set to true, forces row boundaries to appear in the same order
+        as row indices.
+        The default is true.
+        See {@link android.widget.GridLayout#setRowOrderPreserved(boolean)}.
+        -->
+        <attr format="boolean" name="rowOrderPreserved"/>
+        <!--
+        When set to true, forces column boundaries to appear in the same order
+        as column indices.
+        The default is true.
+        See {@link android.widget.GridLayout#setColumnOrderPreserved(boolean)}.
+        -->
+        <attr format="boolean" name="columnOrderPreserved"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        <!--
+              support versions. All attributes not present in MarginLayout are
+              redefined in the support library name space.
+        -->
+
+
+        <!-- START MarginLayout layoutparams -->
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <!--
+              Specifies extra space on the left, top, right and bottom
+              sides of this view. This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_margin"/>
+        <!--
+              Specifies extra space on the left side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginLeft"/>
+        <!--
+              Specifies extra space on the top side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginTop"/>
+        <!--
+              Specifies extra space on the right side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginRight"/>
+        <!--
+              Specifies extra space on the bottom side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginBottom"/>
+
+        <!-- END MarginLayout layoutparams -->
+
+
+        <!--
+        The row boundary delimiting the top of the group of cells
+        occupied by this view.
+        -->
+        <attr format="integer" name="layout_row"/>
+        <!--
+        The row span: the difference between the bottom and top
+        boundaries delimiting the group of cells occupied by this view.
+        The default is one.
+        See {@link android.widget.GridLayout.Spec}.
+        -->
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        <!--
+        The column boundary delimiting the left of the group of cells
+        occupied by this view.
+        -->
+        <attr format="integer" name="layout_column"/>
+        <!--
+        The column span: the difference between the right and left
+        boundaries delimiting the group of cells occupied by this view.
+        The default is one.
+        See {@link android.widget.GridLayout.Spec}.
+        -->
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        <!--
+        Gravity specifies how a component should be placed in its group of cells.
+        The default is LEFT | BASELINE.
+        See {@link android.widget.GridLayout.LayoutParams#setGravity(int)}.
+        -->
+        <attr name="layout_gravity">
+
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!--
+             Additional option that can be set to have the top and/or bottom edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the vertical gravity: a top gravity will clip the bottom
+             edge, a bottom gravity will clip the top edge, and neither will clip both edges.
+            -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!--
+             Additional option that can be set to have the left and/or right edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the horizontal gravity: a left gravity will clip the right
+             edge, a right gravity will clip the left edge, and neither will clip both edges.
+            -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+    </declare-styleable></file></source></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res"><file name="add" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\add.png" qualifiers="" type="drawable"/><file name="addafter" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\addafter.png" qualifiers="" type="drawable"/><file name="addbefore" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\addbefore.png" qualifiers="" type="drawable"/><file name="back" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\back.jpg" qualifiers="" type="drawable"/><file name="button" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\button.xml" qualifiers="" type="drawable"/><file name="delete" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\delete.png" qualifiers="" type="drawable"/><file name="delete2" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\delete2.png" qualifiers="" type="drawable"/><file name="device" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\device.jpg" qualifiers="" type="drawable"/><file name="hint" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\hint.png" qualifiers="" type="drawable"/><file name="left" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\left.png" qualifiers="" type="drawable"/><file name="left2" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\left2.png" qualifiers="" type="drawable"/><file name="modify" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\modify.png" qualifiers="" type="drawable"/><file name="ok" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\ok.png" qualifiers="" type="drawable"/><file name="playing" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\playing.jpg" qualifiers="" type="drawable"/><file name="room" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\room.jpg" qualifiers="" type="drawable"/><file name="roundrect" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\roundrect.png" qualifiers="" type="drawable"/><file name="save" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\save.png" qualifiers="" type="drawable"/><file name="save2" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\save2.png" qualifiers="" type="drawable"/><file name="send" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\send.png" qualifiers="" type="drawable"/><file name="shape" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\shape.xml" qualifiers="" type="drawable"/><file name="whitecircle" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\whitecircle.png" qualifiers="" type="drawable"/><file name="ic_launcher" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_login" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="devicecontrol_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\devicecontrol_layout.xml" qualifiers="" type="layout"/><file name="deviceshow_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\deviceshow_layout.xml" qualifiers="" type="layout"/><file name="devicesystem_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\devicesystem_layout.xml" qualifiers="" type="layout"/><file name="mainlayout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\mainlayout.xml" qualifiers="" type="layout"/><file name="messageshow_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\messageshow_layout.xml" qualifiers="" type="layout"/><file name="message_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\message_layout.xml" qualifiers="" type="layout"/><file name="monitoritem_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\monitoritem_layout.xml" qualifiers="" type="layout"/><file name="monitor_set_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\monitor_set_layout.xml" qualifiers="" type="layout"/><file name="taskitem_set_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\taskitem_set_layout.xml" qualifiers="" type="layout"/><file name="taskone_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\taskone_layout.xml" qualifiers="" type="layout"/><file name="task_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\task_layout.xml" qualifiers="" type="layout"/><file name="task_set_layout" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\task_set_layout.xml" qualifiers="" type="layout"/><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\values\arrays.xml" qualifiers=""><string-array name="homes">
+		<item>我的家</item>
+		<item>测试环境</item>
+	</string-array></file><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="buttonBarStyle"/>
+        <attr format="reference" name="buttonBarButtonStyle"/>
+    </declare-styleable></file><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\values\colors.xml" qualifiers=""><color name="darkgreen">#9040</color><color name="green">#A0E0</color><color name="red">#F00</color><color name="blue">#0000ff</color><color name="black_overlay">#8F323232</color><color name="yellow">#DD0</color><color name="gray">#AAA</color><color name="transparency">#00000000</color><color name="darkblue">#A006</color><color name="darkbrown">#9844</color><color name="lightgreen">#6060</color><color name="white">#AFFF</color></file><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\values\strings.xml" qualifiers=""><string name="timedtask">定时任务</string><string name="soaction">控制SO</string><string name="download">打造自己的智能家居平台梦想成真\n应阁智能家居监控平台(服务器)下载\nhttp://www.ionfox.com.cn/SHP.zip</string><string name="account">账号</string><string name="sure">确认</string><string name="wanip">外网域名</string><string name="taskset">任务设置</string><string name="yourpass">输入您的密码</string><string name="btnStartDevice">启动设备</string><string name="selecttask">选择任务</string><string name="unknown">未知</string><string name="sendactionok">发送更新任务文件成功</string><string name="btnMessage">留言</string><string name="suredeletemonitor">确认删除监控项</string><string name="tcpdisconnection">通信连接中断，重新登录</string><string name="device">设备</string><string name="inputmessage">输入留言文本信息</string><string-array name="prefix"> 
+       <item>(</item> 
+   </string-array><string name="makelocation">创建监控点</string><string name="doaction">DO切换</string><string name="modifyitemok">数据修改保存</string><string name="blacklist">禁用名单</string><string name="suredelete">确认删除</string><string name="btnLoadTask">任务</string><string name="dummy_button">Dummy Button</string><string name="cancel">取消</string><string name="on">开启</string><string name="cmdmodify">操控设置</string><string-array name="combine"> 
+       <item>或者</item> 
+       <item>并且</item> 
+   </string-array><string name="notimedtask">即时任务</string><string name="btnLoadAlarm">监控</string><string name="monitorlocation">监控地点</string><string name="ipporterror">输入1024至65535之间的数值</string><string name="myhome">我的家</string><string name="settimetask">设置任务定时执行时间</string><string name="btnLoadPicture">图片</string><string name="newtask">新任务</string><string name="state">状态：</string><string name="dvfunction">设备功能</string><string name="control">控制：</string><string name="suredeletetaskitem">确认删除任务项</string><string name="suredeletehome">确认删除监控点</string><string name="off">关闭</string><string name="Update">更新</string><string name="app_name">应阁智能监控</string><string name="unenablemonitor">设防(ㄨ)</string><string name="updatestate">更新状态</string><string name="btnSetAlarm">监控</string><string name="demo">虚拟演示</string><string name="seltime">时间段</string><string name="working">正在获取信息,请等待任务完成提示</string><string name="btnLoadDevice">设备</string><string name="loginternet">外网登录</string><string name="yourname">输入您的姓名</string><string name="dvoperation">控制方法</string><string name="port2">外网端口</string><string name="port1">内网端口</string><string name="dvtype">设备类型</string><string name="ipdemo1">192.168.1.220</string><string name="ipdemo2">smarthomemusic.vicp.cc</string><string name="btnSetTask">任务</string><string name="updateinfo">请按【更新】按钮获取监控点信息</string><string name="operation">操作数据</string><string name="suredeletetask">确认删除任务</string><string name="enablemonitor">撤防(√)</string><string name="sendmessage">发送消息</string><string name="nosignal">无信号</string><string name="addmonitorprojecthint">已经添加监控项目，请完善监控条件和执行场景任务</string><string name="delete">删除</string><string name="tcpclientfail">TCP连接失败</string><string-array name="suffix"> 
+       <item>)</item> 
+   </string-array><string name="oppara">操控参数</string><string name="second">秒</string><string name="clearhis">-</string><string name="haveonehome">必须有一个监控点</string><string name="modifyok">数据修改保存成功，可发送到服务器更新</string><string name="exists">已近存在</string><string name="dooperationhint1">输入1或者开启：打开开关</string><string name="inputdevice">信号设备</string><string name="dooperationhint2">输入0或者关闭：关闭开关</string><string name="signal">有信号</string><string name="sendalarmfileok">发送监控文件成功</string><string name="endtime">结束时间</string><string name="exitapp">退出</string><string name="selecthome">选择监控点</string><string name="lap">:</string><string name="loginOK">登录成功</string><string name="monitorset">监控设置</string><string name="loglan">内网登录</string><string name="opdelay">操控延时</string><string name="btnExcuteTask">执行</string><string name="deletehome">删除监控</string><string name="subdevicename">子设备名</string><string name="mendtaskitem">任务内容设置</string><string name="systemname">系统名称</string><string name="usedable">启用</string><string name="btnStopDevice">关闭设备</string><string name="inputcmd">输入命令数据</string><string name="starttime">开始时间</string><string name="addmonitorhint">已经添加监控条件，请完善监控参数</string><string name="aoaction">控制AO</string><string name="function">功能：</string><string name="showdemo">开启演示</string><string name="timed">定时</string><string name="password">密码</string><string name="lanip">内网IP地址</string><string name="addhome">增加监控</string><string name="devicename">设备名称</string><string name="save">保存密码</string><string name="noexists">不存在</string><string name="tcpclientok">请等待服务器响应</string><string name="loginerror">登录失败\r\n请输入正确的账号和密码</string></file><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="ButtonBarButton"/><style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style><style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style></file><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="FullscreenTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style><style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style></file><file path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file name="activity_loging_v2" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\layout\activity_loging_v2.xml" qualifiers="" type="layout"/><file name="ic_action_refresh" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-mdpi\ic_action_refresh.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-hdpi\ic_action_refresh.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-xhdpi\ic_action_refresh.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-xxhdpi\ic_action_refresh.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="content_new" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-hdpi\content_new.png" qualifiers="hdpi-v4" type="drawable"/><file name="content_discard" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-hdpi\content_discard.png" qualifiers="hdpi-v4" type="drawable"/><file name="forward" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\forward.png" qualifiers="" type="drawable"/><file name="device_access_network_wifi" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-hdpi\device_access_network_wifi.png" qualifiers="hdpi-v4" type="drawable"/><file name="navigation_back" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable-hdpi\navigation_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="collectionsn" path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\main\res\drawable\collectionsn.png" qualifiers="" type="drawable"/></source><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\generated\res\rs\debug"/><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\Zimmerman\AndroidStudioProjects\SmartHome\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable><declare-styleable name="GridLayout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode"><enum name="alignBounds" value="0"/><enum name="alignMargins" value="1"/></attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable><declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable><declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable><declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr name="layout_gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable></configuration></mergedItems></merger>

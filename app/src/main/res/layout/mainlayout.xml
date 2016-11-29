@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"   >
+
+		<TextView
+		    android:id="@+id/monitorhome"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:background="@color/transparency"
+		    android:gravity="center"
+		    android:textSize="20sp" />
+
+	</LinearLayout>
+	
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:background="@color/transparency"
+		android:orientation="horizontal">
+
+		<TableRow android:padding="0dp">
+
+			<Button
+			    android:id="@+id/btnExit"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:layout_margin="1dp"
+			    android:background="@drawable/button"
+			    android:minWidth="0dp"
+			    android:padding="8dp"
+			    android:text="@string/exitapp"
+			    android:textSize="13sp" />
+
+			<Button
+			    android:id="@+id/btnExcuteTask"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:layout_margin="1dp"
+			    android:background="@drawable/button"
+			    android:minWidth="0dp"
+			    android:padding="8dp"
+			    android:text="@string/btnExcuteTask"
+			    android:textSize="13sp" />
+
+			<Button
+			    android:id="@+id/btnMessage"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:layout_margin="1dp"
+			    android:background="@drawable/button"
+			    android:minWidth="0dp"
+			    android:padding="8dp"
+			    android:text="@string/btnMessage"
+			    android:textSize="13sp" />
+
+			<Button
+			    android:id="@+id/btnSetTask"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:layout_margin="1dp"
+			    android:background="@drawable/button"
+			    android:minWidth="0dp"
+			    android:padding="8dp"
+			    android:text="@string/btnSetTask"
+			    android:textSize="13sp" />
+
+			<Button
+			    android:id="@+id/btnSetAlarm"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:layout_margin="1dp"
+			    android:background="@drawable/button"
+			    android:minWidth="0dp"
+			    android:padding="8dp"
+			    android:text="@string/btnSetAlarm"
+			    android:textSize="13sp" />
+
+			<Button
+			    android:id="@+id/btnChangeMonitor"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:layout_margin="1dp"
+			    android:background="@drawable/button"
+			    android:enabled="false"
+			    android:minWidth="0dp"
+			    android:padding="8dp"
+			    android:text="@string/unenablemonitor"
+			    android:textSize="13sp" />
+						
+		</TableRow>
+	</TableLayout>
+
+	<ListView android:id="@+id/lvTask" android:layout_width="match_parent"
+		android:layout_height="match_parent" android:layout_weight="1" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/transparency"
+	    android:orientation="horizontal" >
+
+		<ImageButton
+		    android:id="@+id/loaddev"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+
+		    android:layout_gravity="center"
+		    android:layout_marginLeft="4dp"
+		    android:gravity="center"
+			android:background="@drawable/ic_action_refresh"
+		    android:text="@string/Update"
+		    android:textSize="13sp" />
+
+		<Button
+		    android:id="@+id/btnLoadDevice"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_margin="1dp"
+		    android:background="@drawable/button"
+		    android:minWidth="0dp"
+		    android:padding="8dp"
+		    android:text="@string/btnLoadDevice"
+		    android:textSize="13sp" />
+
+		<Button
+		    android:id="@+id/btnLoadAlarm"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_margin="1dp"
+		    android:background="@drawable/button"
+		    android:minWidth="0dp"
+		    android:padding="8dp"
+		    android:text="@string/btnLoadAlarm"
+		    android:textSize="13sp" />
+
+		<Button
+		    android:id="@+id/btnLoadTask"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_margin="1dp"
+		    android:background="@drawable/button"
+		    android:minWidth="0dp"
+		    android:padding="8dp"
+		    android:text="@string/btnLoadTask"
+		    android:textSize="13sp" />
+
+		<Button
+		    android:id="@+id/btnLoadPicture"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_margin="1dp"
+		    android:background="@drawable/button"
+		    android:minWidth="0dp"
+		    android:padding="8dp"
+		    android:text="@string/btnLoadPicture"
+		    android:textSize="13sp" />
+
+		<Button
+		    android:id="@+id/btnStartDevice"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_margin="1dp"
+		    android:background="@drawable/button"
+		    android:minWidth="0dp"
+		    android:padding="8dp"
+		    android:text="@string/btnStartDevice"
+		    android:textSize="13sp" />
+
+		<Button
+		    android:id="@+id/btnStopDevice"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_margin="1dp"
+		    android:background="@drawable/button"
+		    android:minWidth="0dp"
+		    android:padding="8dp"
+		    android:text="@string/btnStopDevice"
+		    android:textSize="13sp" />
+				
+	</LinearLayout>
+
+
+
+	<ListView android:id="@+id/lvDeviceSystem"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:layout_weight="1" />
+	<TextView
+		android:id="@+id/txtHint"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:background="#465c4f"
+		android:paddingLeft="4dp"
+		android:paddingRight="4dp"
+		android:text="hint:none"
+		android:textSize="12sp"
+		android:visibility="visible" />
+</LinearLayout>

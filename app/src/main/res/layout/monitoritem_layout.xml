@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+    		
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		
+		<TextView android:id="@+id/tvdevicetext" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingLeft="4dp"
+			android:text="@string/inputdevice" />
+		
+		<TextView
+		    android:id="@+id/tvdevice"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="4dp"
+		    android:text="910-0-1,SO,TEXT（delay 2)" />
+			
+			</LinearLayout>
+
+		<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+
+		<TextView
+		    android:id="@+id/subdevice"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="30dp"
+		    android:text="客厅温度传感器"
+		    android:textColor="@color/green" />
+
+		<TextView
+		    android:id="@+id/condition"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="4dp"
+		    android:text=">"
+		    android:textColor="@color/red" />
+
+		<TextView
+		    android:id="@+id/para"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="4dp"
+		    android:text="29" />
+
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+
+		<TextView
+		    android:id="@+id/dvfunctiontext"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="30dp"
+		    android:text="@string/btnExcuteTask"
+		    android:textColor="@color/green" />
+
+		<TextView
+		    android:id="@+id/task"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="4dp"
+		    android:text="开客厅空调" />
+
+	</LinearLayout>
+	
+</LinearLayout>

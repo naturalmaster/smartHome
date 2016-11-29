@@ -1,0 +1,282 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Tilte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/inputaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/transparency"
+                android:hint="@string/yourname"
+                android:singleLine="true"
+                android:textColorHint="@color/darkbrown"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#aa000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/inputpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/transparency"
+                android:hint="@string/yourpass"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColorHint="@color/darkbrown"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#aa000000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLogLan"
+            android:layout_width="80dp"
+            android:layout_height="34dp"
+            android:layout_margin="1dp"
+            android:width="80dp"
+            android:background="@drawable/button"
+            android:minHeight="44dp"
+            android:minWidth="80dp"
+            android:text="@string/loglan"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="34dp" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="80dp"
+            android:layout_height="34dp"
+            android:layout_margin="1dp"
+            android:width="72dp"
+            android:background="@drawable/button"
+            android:minHeight="44dip"
+            android:minWidth="40dp"
+            android:text="@string/exitapp"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/btnDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/demo"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkbrown">
+
+
+    </TableRow>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkSavePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/chkShowDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showdemo"
+            android:textSize="13sp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/setting_bar"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:layout_width="match_parent"
+                android:layout_marginTop="55dp"
+                android:layout_height="wrap_content" android:background="@color/transparency">
+                <TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:gravity="end"
+                    android:padding="4dp" android:text="@string/lanip" />
+
+                <EditText
+                    android:id="@+id/ip1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_span="2"
+                    android:background="@drawable/shape"
+                    android:hint="@string/ipdemo1"
+                    android:singleLine="true" />
+
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:background="@color/transparency">
+                <TextView android:id="@+id/TextView04" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:gravity="end"
+                    android:padding="4dp" android:text="@string/port1" />
+
+                <EditText
+                    android:id="@+id/port1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_span="2"
+                    android:background="@drawable/shape"
+                    android:hint="50001"
+                    android:singleLine="true" />
+
+            </TableRow>
+
+
+            <TableRow android:layout_height="40dp"
+                android:layout_width="match_parent">
+
+                <TextView android:id="@+id/TextView00" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_gravity="center"
+                    android:gravity="end" android:padding="4dp" android:text="@string/selecthome" />
+
+                <Spinner
+                    android:id="@+id/cbTimeTasks"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/shape"
+                    android:textSize="13sp"
+                    android:padding="0dp" />
+
+            </TableRow>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="34dp">
+                <Button
+                    android:id="@+id/btnaddHome"
+                    android:layout_width="80dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="1dp"
+                    android:width="80dp"
+                    android:background="@drawable/button"
+                    android:minHeight="40dp"
+                    android:minWidth="80dp"
+                    android:text="@string/addhome"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2">
+
+                    <Button
+                        android:id="@+id/btndeleteHome"
+                        android:layout_width="80dp"
+                        android:layout_height="34dp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/button"
+                        android:minHeight="40dp"
+                        android:text="@string/deletehome"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/inputhome"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/shape"
+                        android:hint=""
+                        android:inputType="text"
+                        android:padding="4dp"
+                        android:singleLine="true"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/tvdownload"
+            android:layout_below="@+id/setting_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|bottom"
+            android:singleLine="false"
+            android:text="@string/download"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

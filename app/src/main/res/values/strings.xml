@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="app_name">应阁智能监控</string>
+	<string name="dummy_button">Dummy Button</string>
+    <string name="download">打造自己的智能家居平台梦想成真\n应阁智能家居监控平台(服务器)下载\nhttp://www.ionfox.com.cn/SHP.zip</string>
+	<string name="account">账号</string>
+	<string name="password">密码</string>
+	<string name="loglan">内网登录</string>
+	<string name="loginternet">外网登录</string>
+	<string name="exitapp">退出</string>
+	<string name="yourname">输入您的姓名</string>
+	<string name="yourpass">输入您的密码</string>
+	<string name="demo">虚拟演示</string>
+	<string name="save">保存密码</string>
+	<string name="lanip">内网IP地址</string>
+	<string name="port1">内网端口</string>
+	<string name="wanip">外网域名</string>
+	<string name="port2">外网端口</string>
+	<string name="ipdemo1">192.168.1.220</string>
+	<string name="ipdemo2">smarthomemusic.vicp.cc</string>
+	<string name="addhome">增加监控</string>
+	<string name="deletehome">删除监控</string>
+	<string name="selecthome">选择监控点</string>
+    <string name="showdemo">开启演示</string>
+
+	<string name="suredeletehome">确认删除监控点</string>
+	<string name="suredelete">确认删除</string>
+	<string name="suredeletetask">确认删除任务</string>	
+	<string name="suredeletetaskitem">确认删除任务项</string>	
+	<string name="suredeletemonitor">确认删除监控项</string>	
+	<string name="delete">删除</string>
+	<string name="cancel">取消</string>
+	<string name="sure">确认</string>
+	<string name="haveonehome">必须有一个监控点</string>
+	<string name="noexists">不存在</string>
+	<string name="exists">已近存在</string>
+	<string name="myhome">我的家</string>
+	<string name="ipporterror">输入1024至65535之间的数值</string>
+	<string name="tcpclientok">请等待服务器响应</string>
+	<string name="tcpclientfail">TCP连接失败</string>
+	<string name="loginerror">登录失败\r\n请输入正确的账号和密码</string>
+	<string name="loginOK">登录成功</string>
+	
+	<string name="Update">更新</string>
+	<string name="btnLoadDevice">设备</string>
+	<string name="btnLoadAlarm">监控</string>
+	<string name="btnLoadTask">任务</string>
+	<string name="btnLoadPicture">图片</string>
+	<string name="btnStartDevice">启动设备</string>
+	<string name="btnStopDevice">关闭设备</string>
+	<string name="btnExcuteTask">执行</string>
+		<string name="btnMessage">留言</string>
+	<string name="btnSetTask">任务</string>
+	<string name="btnSetAlarm">监控</string>
+	<string name="tcpdisconnection">通信连接中断，重新登录</string>
+	<string name="updateinfo">请按【更新】按钮获取监控点信息</string>
+	<string name="makelocation">创建监控点</string>
+	<string name="working">正在获取信息,请等待任务完成提示</string>
+	<string name="timed">定时</string>
+    <string name="starttime">开始时间</string>
+    <string name="endtime">结束时间</string>
+	<string name="timedtask">定时任务</string>
+	<string name="notimedtask">即时任务</string>
+	<string name="selecttask">选择任务</string>
+	<string name="usedable">启用</string>
+			
+	<string name="dvtype">设备类型</string>
+	<string name="dvfunction">设备功能</string>
+	<string name="dvoperation">控制方法</string>
+	<string name="inputcmd">输入命令数据</string>
+	<string name="doaction">DO切换</string>
+	<string name="aoaction">控制AO</string>
+	<string name="soaction">控制SO</string>
+	<string name="updatestate">更新状态</string>
+	<string name="clearhis">-</string>
+	<string name="on">开启</string>
+	<string name="off">关闭</string>
+	<string name="state">状态：</string>
+	<string name="control">控制：</string>
+	<string name="function">功能：</string>
+	<string name="signal">有信号</string>
+	<string name="nosignal">无信号</string>
+	<string name="unknown">未知</string>
+	<string name="monitorlocation">监控地点</string>
+	<string name="taskset">任务设置</string>	
+	<string name="newtask">新任务</string>	
+	<string name="mendtaskitem">任务内容设置</string>			
+	<string name="device">设备</string>			
+	<string name="operation">操作数据</string>			
+	<string name="systemname">系统名称</string>		
+	<string name="cmdmodify">操控设置</string>			
+	<string name="devicename">设备名称</string>			
+	<string name="subdevicename">子设备名</string>			
+	<string name="opdelay">操控延时</string>			
+	<string name="oppara">操控参数</string>
+    <string name="blacklist">禁用名单</string>
+		
+	<string name="second">秒</string>
+	<string name="enablemonitor">撤防(√)</string>
+	<string name="unenablemonitor">设防(ㄨ)</string>	
+	<string name="dooperationhint1">输入1或者开启：打开开关</string>	
+	<string name="dooperationhint2">输入0或者关闭：关闭开关</string>	
+	<string name="modifyitemok">数据修改保存</string>		
+	<string name="modifyok">数据修改保存成功，可发送到服务器更新</string>		
+	<string name="sendactionok">发送更新任务文件成功</string>		
+	<string name="sendalarmfileok">发送监控文件成功</string>		
+	<string name="lap">:</string>
+	<string name="monitorset">监控设置</string>
+	<string name="inputdevice">信号设备</string>
+	<string name="addmonitorhint">已经添加监控条件，请完善监控参数</string>
+	<string name="addmonitorprojecthint">已经添加监控项目，请完善监控条件和执行场景任务</string>
+	<string name="sendmessage">发送消息</string>
+	<string name="inputmessage">输入留言文本信息</string>			
+     <string name="settimetask">设置任务定时执行时间</string>		
+     <string name="seltime">时间段</string>		
+     <string-array name="prefix"> 
+       <item>(</item> 
+   </string-array> 
+     <string-array name="suffix"> 
+       <item>)</item> 
+   </string-array> 
+      <string-array name="combine"> 
+       <item>或者</item> 
+       <item>并且</item> 
+   </string-array>      
+</resources>

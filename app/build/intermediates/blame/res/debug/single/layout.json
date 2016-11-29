@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_set_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\task_set_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\monitor_set_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\monitor_set_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loging_v2.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\activity_loging_v2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messageshow_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\messageshow_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\monitoritem_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\monitoritem_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\devicesystem_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\devicesystem_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\task_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainlayout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\mainlayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\message_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\taskone_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\taskone_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\devicecontrol_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\devicecontrol_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\deviceshow_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\deviceshow_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\taskitem_set_layout.xml",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\layout\\taskitem_set_layout.xml"
+    }
+]

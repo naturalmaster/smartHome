@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="homes">
+		<item>我的家</item>
+		<item>测试环境</item>
+	</string-array>
+</resources>

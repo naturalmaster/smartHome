@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparency" >
+
+        <TextView
+            android:id="@+id/taskset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/transparency" >
+
+        <ImageView
+            android:id="@+id/imgOK"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/left2" />
+
+        <ImageView
+            android:id="@+id/imgAddTask"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/add" />
+
+        <ImageView
+            android:id="@+id/imgDeleteTask"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/delete2" />
+
+        <ImageView
+            android:id="@+id/imgSend"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/send" />
+
+        <EditText
+            android:id="@+id/workitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:ems="12"
+            android:maxLength="16"
+            android:text="@string/newtask" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/transparency"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgSaveTask"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/save2" />
+
+        <CheckBox
+            android:id="@+id/chkTaskUsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="0.17"
+            android:checked="true"
+            android:gravity="left|center_vertical"
+            android:text="@string/usedable"
+            android:textAppearance="?android:attr/textAppearanceButton" />
+
+        <Button
+            android:id="@+id/btnSetTimedTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="0.65"
+            android:background="@drawable/button"
+            android:minWidth="0dp"
+            android:padding="2dp"
+            android:text="@string/settimetask"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutEditTimetask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkblue"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/darkbrown" >
+
+            <ImageView
+                android:id="@+id/imgSaveTime"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="false"
+                android:padding="2dp"
+                android:src="@drawable/save2" />
+         <ImageView
+            android:id="@+id/imgSendTime"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/send" />
+            <TextView
+                android:id="@+id/TextView00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:gravity="end"
+                android:padding="4dp"
+                android:text="@string/seltime" />
+
+            <Spinner
+                android:id="@+id/cbTimeTasks"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgAddTimeTask"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="false"
+                android:padding="2dp"
+                android:src="@drawable/add" />
+
+            <TextView
+                android:id="@+id/timetextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="true"
+                android:paddingLeft="12dp"
+                android:text="@string/starttime"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edithour"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="2" />
+
+            <TextView
+                android:id="@+id/hourtextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/lap"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editminute"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="2" />
+
+            <TextView
+                android:id="@+id/minutetextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/lap"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editsecond"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgDeleteTimeTask"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="false"
+                android:padding="2dp"
+                android:src="@drawable/delete2" />
+
+            <TextView
+                android:id="@+id/timetextview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="true"
+                android:paddingLeft="12dp"
+                android:text="@string/endtime"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edithour2"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="2"
+                android:textColor="@color/yellow" />
+
+            <TextView
+                android:id="@+id/hourtextview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/lap"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editminute2"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="2"
+                android:textColor="@color/yellow" />
+
+            <TextView
+                android:id="@+id/minutetextview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/lap"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editsecond2"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="2"
+                android:textColor="@color/yellow" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/transparency"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textviewtasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="4dp"
+            android:text="@string/selecttask"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/cbtasks"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/transparency" >
+
+        <ImageView
+            android:id="@+id/imgAddTaskItem"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/addbefore" />
+
+        <ImageView
+            android:id="@+id/imgAddTaskItemAfter"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/addafter" />
+
+        <ImageView
+            android:id="@+id/imgDeleteTaskItem"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/delete" />
+
+        <ImageView
+            android:id="@+id/imgModifyTaskItem"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="false"
+            android:padding="2dp"
+            android:src="@drawable/modify" />
+
+        <TextView
+            android:id="@+id/textviewtitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="4dp"
+            android:text="@string/mendtaskitem"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvTaskItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

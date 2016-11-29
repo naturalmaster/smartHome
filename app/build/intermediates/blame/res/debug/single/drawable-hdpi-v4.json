@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\content_new.png",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\drawable-hdpi\\content_new.png"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_refresh.png",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\drawable-hdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\content_discard.png",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\drawable-hdpi\\content_discard.png"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\device_access_network_wifi.png",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\drawable-hdpi\\device_access_network_wifi.png"
+    },
+    {
+        "merged": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\navigation_back.png",
+        "source": "C:\\Users\\Zimmerman\\AndroidStudioProjects\\SmartHome\\app\\src\\main\\res\\drawable-hdpi\\navigation_back.png"
+    }
+]
